@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master)
 [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
 
-```{r, out.width = "400px"}
+```{r package, out.width = "400px", echo=FALSE, fig.align = "center"}
 knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png")
 ```
 
@@ -126,7 +126,7 @@ The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by 
 
 ## This package is part of the natverse
 
-```{r, out.width = "400px"}
+```{r natverse, out.width = "400px", echo=FALSE, fig.align = "center"}
 knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png")
 ```
 
