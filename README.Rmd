@@ -12,11 +12,11 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
-[![Travis-CI Build Status](https://api.travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr)
+[![Travis build status](https://travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr)
 [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master)
 [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
 
-```{r package, out.width = "400px", echo=FALSE, fig.align = "center"}
+```{r package, out.width = "300px", echo=FALSE, fig.align = "center"}
 knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png")
 ```
 
@@ -124,9 +124,7 @@ citation(package = "insectbrainr")
 
 The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was buily by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
 
-## This package is part of the natverse
-
-```{r natverse, out.width = "400px", echo=FALSE, fig.align = "center"}
+```{r natverse, out.width = "300px", echo=FALSE, fig.align = "center"}
 knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png")
 ```
 
