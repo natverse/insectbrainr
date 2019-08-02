@@ -1,0 +1,24 @@
+Package: insectbrainr
+Type: Package
+Title: R client utilities for interacting with the InsectBrainDB.org.
+Version: 0.1.0
+Authors@R: c(
+    person("Alexander", "Bates", email = "alexander.shakeel.bates@gmail.com", role = c("aut", "cre"), 
+    comment = c(ORCID = "0000-0002-1195-0445"))
+    )
+Description: Access to the InsectBrainDB.org, which hosts over 100 neurons and template brains for over a dozen different insect species. Principally curated by Stanley Heinze at the University of Lund, contact him at: stanley.heinze@biol.lu.se.
+License: GPL-3
+LazyData: true
+Suggests: 
+    spelling,
+    knitr,
+    rmarkdown,
+    covr
+Depends: R (>= 2.10)
+Imports: httr, jsonlite, nat, curl, utils, readobj
+Encoding: UTF-8
+Language: en-GB
+RoxygenNote: 6.1.1
+URL: https://github.com/natverse/insectbrainr
+BugReports: https://github.com/natverse/insectbrainr/issues
+VignetteBuilder: knitr
