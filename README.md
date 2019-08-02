@@ -1,11 +1,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis-CI Build Status](https://api.travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr) [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master) [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
+[![Travis build status](https://travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr) [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master) [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
 
-``` r
-knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png")
-```
-
-<img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png" width="400px" />
+<img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png" width="300px" style="display: block; margin: auto;" />
 
 The Insect Brain Database
 =========================
@@ -117,11 +113,4 @@ Acknowledgements
 
 The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was buily by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
 
-This package is part of the natverse
-------------------------------------
-
-``` r
-knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png")
-```
-
-<img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png" width="400px" />
+<img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png" width="300px" style="display: block; margin: auto;" />
