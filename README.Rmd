@@ -16,11 +16,7 @@ knitr::opts_chunk$set(
 [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master)
 [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
 <a href="https://github.com/natverse/natverse"><img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png" width="30px" /></a>
-
-<p align="center">
-  <img width="300px" src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png"/>
-</p>  
-
+<img align="right" width="300px" src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png">
 
 # The Insect Brain Database
 
@@ -126,7 +122,7 @@ citation(package = "insectbrainr")
 
 The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was buily by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
 
-```{r natverse, out.width = "300px", echo=FALSE, fig.align = "center"}
-knitr::include_graphics("https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png")
-```
 
+<p align="center">
+  <img width="300px" src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png"/>
+</p> 
