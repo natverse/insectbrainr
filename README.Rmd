@@ -12,10 +12,10 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
+[![natverse](https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6)](https://natverse.github.io)
 [![Travis build status](https://travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr)
 [![Coverage status](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/github/natverse/insectbrainr?branch=master)
 [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
-<a href="https://github.com/natverse/natverse"><img src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-natverse_logo.png" width="30px" /></a>
 <img align="right" width="300px" src="https://raw.githubusercontent.com/natverse/insectbrainr/master/inst/images/hex-insectbrainr.png">
 
 # The Insect Brain Database
