@@ -56,52 +56,6 @@ of May 2019, data from the following \href{https://insectbraindb.org/app/species
  template brain, usually using elastix. To visualise the templatebrain, use \code{plot3d} on class \code{hxsurf}
  objects downloaded using \code{\link{insectbraindb_read_brain}}.
 }
-\examples{
-\dontrun{
-## What neurons does the insectbraindb.org host?
-available.neurons = insectbraindb_neuron_info()
-
-## Let's just download all of the neurons in the database to play with,
-## there are not very many:
-nrow(available.neurons)
-
-## First, we call the read neurons function, with ids set to NULL
-insect.neurons = insectbraindb_read_neurons(ids = NULL)
-
-## Hmm, let's see how many neurons we have perspecies
-table(insect.neurons[,"common_name"])
-
-## So, it seem the Monarch Butterfly is the clear winner there,
-## maybe let's just have those
-butterfly.neurons =
-subset(insect.neurons, common_name == "Monarch Butterfly")
-
-## And let's plot them
-plot3d(butterfly.neurons, lwd = 2, soma = 5)
-
-## Cool! But maybe we also want to see it's template brain?
-## Let's check if they have it
-available.brains = insectbraindb_species_info()
-available.brains
-
-## Great, they do, let's get it
-butterfly.brain = insectbraindb_read_brain(species = "Danaus plexippus")
-
-## And plot in a translucent manner
-plot3d(butterfly.brain, alpha = 0.1)
-
-## Oop, that's a lot of neuropils.
-## Let's go for only a subset. What's available?
-butterfly.brain$RegionList
-butterfly.brain$neuropil_full_names
-
-# There lateral horn (LH) and the antennal lobe (AL) are my favourites.
-# Let's plot those
-clear3d()
-plot3d(subset(butterfly.brain, "LH|AL"), alpha = 0.5)
-
-}
-}
 \seealso{
 \code{\link{insectbraindb_neuron_info}}, \code{\link{insectbraindb_read_brain}}, \code{\link{insectbraindb_species_info}}
 }
