@@ -38,6 +38,7 @@ insectbraindb_species_info <- function(){
     df  = rbind(df, unlist(s))
   }
   colnames(df) = names(species_info[[1]])
+  df = df[!duplicated(df$id),]
   rownames(df) = df[,"id"]
   df
 }
