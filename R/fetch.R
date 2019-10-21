@@ -41,7 +41,7 @@ insectbraindb_parse_json <- function (req, simplifyVector = FALSE, raw = TRUE, .
   if(is.null(p)){
     warning("error parsing JSON")
   }
-  nullToNA(p)
+  tryCatch( nullToNA(p), error = function(e) NA )
 }
 
 # hidden
