@@ -56,9 +56,11 @@ insectbraindb_neuron_info <- function(){
     n = nullToNA(n)
     meta = names(n)[!sapply(n,is.list)]
     meta = unlist(n[meta])
-    meta["scientific_name"] = n$species$scientific_name
-    meta["common_name"] = n$species$common_name
-    df  = rbind(df, meta)
+    if(!is.null(n$species)){
+      meta["scientific_name"] = n$species$scientific_name
+      meta["common_name"] = n$species$common_name
+    }
+    df  = rbind(df, as.data.frame(t(meta)))
   }
   colnames(df) = names(meta)
   df
