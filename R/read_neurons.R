@@ -48,7 +48,7 @@
 #' @rdname insectbraindb_read_neurons
 insectbraindb_read_neurons <- function(ids = NULL, progress = TRUE){
   if(is.null(ids)){
-    ids =insectbraindb_neuron_info()$id
+    ids = insectbraindb_neuron_info()$id
   }
   temp = tempdir()
   urls = success = c()
@@ -61,6 +61,10 @@ insectbraindb_read_neurons <- function(ids = NULL, progress = TRUE){
                                     simplifyVector=FALSE,
                                     include_headers = FALSE,
                                     insectbraindb_url = "https://insectbraindb.org")
+    if(is.na(neuron_info)){
+      warning("warning: information on ", id, " could not be found")
+      next
+    }
     if(!length(neuron_info[[1]]$data$reconstructions)){
       warning("neuron with id ", id," could not be read")
       next
@@ -81,6 +85,7 @@ insectbraindb_read_neurons <- function(ids = NULL, progress = TRUE){
                      publication = changenull(pub["doi"]),
                      year = changenull(pub["date"]))
     df = rbind(df, ndf)
+    df = df[!duplicated(df$id),]
     rownames(df) = df[,"id"]
     swc.path = insectbraindb_fetch(path = paste0("filestore/download_url/?uuid=", uuid),
                                  body = NULL,
