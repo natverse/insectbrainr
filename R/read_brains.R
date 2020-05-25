@@ -87,7 +87,7 @@ insectbraindb_read_brain <- function(species = insectbraindb_species_info()$scie
   urls = paste0("https://s3.eu-central-1.amazonaws.com/ibdb-file-storage/",paths)
   temp.files = success = c()
   temp = tempdir()
-  for (url in 1:length(urls)){
+  for (url in seq_along(urls)){
     localfile = paste0(temp,"/", paste0(paste(unlist(strsplit(species," ")),collapse="_"), "_", sex[1], "_", basename(urls[url]) ))
     if(!file.exists(localfile)){
       t=try(utils::download.file(urls[url], localfile, mode='wb', quiet = TRUE))
