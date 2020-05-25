@@ -4,9 +4,11 @@
 \alias{insectbraindb_read_brain}
 \title{Read 3D insect brain meshes from insectbraindb.org}
 \usage{
-
-  insectbraindb_read_brain(species = insectbraindb_species_info()$scientific_name,
-  brain.sex = c("UNKNOWN", "MALE", "FEMALE"), progress = TRUE)
+insectbraindb_read_brain(
+  species = insectbraindb_species_info()$scientific_name,
+  brain.sex = c("UNKNOWN", "MALE", "FEMALE"),
+  progress = TRUE
+)
 }
 \arguments{
 \item{species}{the full scientific name for a species. The available options can be seen \href{https://insectbraindb.org/app/species}{here}}
