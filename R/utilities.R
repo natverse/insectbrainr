@@ -7,6 +7,16 @@ changenull <- function(x, to = ""){
   ifelse(is.null(x),to,x)
 }
 
+#' @importFrom purrr transpose
+list2df <- function(x, stringsAsFactors = FALSE) {
+  l=transpose(x)
+  l=sapply(l, function(c) {
+    if(is.list(c)) c=nullToNA(c)
+    c=unlist(c, recursive = F, use.names = F)
+  }, simplify = FALSE)
+  as.data.frame(l, stringsAsFactors = stringsAsFactors)
+}
+
 # hidden
 insectbraindb_progress <- function (x, max = 100, message = "querying insectbraindb") {
   percent <- x / max * 100

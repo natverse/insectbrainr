@@ -32,17 +32,12 @@ insectbraindb_species_info <- function(){
                                   simplifyVector=FALSE,
                                   include_headers = FALSE,
                                   insectbraindb_url = "https://insectbraindb.org")
-  df = data.frame()
-  for(s in species_info){
-    s = nullToNA(s)
-    df  = rbind(df, t(data.frame(unlist(s))) )
-  }
-  colnames(df) = names(species_info[[1]])
+
+  df=list2df(species_info)
   df = df[!duplicated(df$id),]
   rownames(df) = df[,"id"]
   df
 }
-
 
 #' @export
 #' @rdname insectbraindb_info

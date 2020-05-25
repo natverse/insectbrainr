@@ -13,7 +13,8 @@ Suggests:
     spelling,
     knitr,
     rmarkdown,
-    covr
+    covr,
+    purrr
 Depends: R (>= 2.10), nat
 Imports: httr, jsonlite, curl, utils, readobj
 Encoding: UTF-8
