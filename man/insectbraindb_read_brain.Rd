@@ -26,7 +26,7 @@ Read templatebrains, comprised of their different neuropils, for various insect 
 given a single latin names for the species desired. Metadata for available neurons can be seen, and IDs chosen,
 by calling \code{\link{insectbraindb_species_info}}. 3D triangular brain meshes are returned as a \code{nat} package \code{\link[nat]{hxsurf}}
 object, which mimics the Amira surface format. These can be be plotted in 3D using \code{rgl} and analysed with tools from the \code{nat} ecosystem.
-This incldue subseting by neuropil, i.e.. if you only want to visualise or analyse the antennal lobe.
+This includes subsetting by neuropil, i.e.. if you only want to visualise or analyse the antennal lobe.
 }
 \details{
 A single 3D brain object is read, a .obj file for each of its neuropils is downloaded from https://ibdb-file-storage.s3.amazonaws.com/

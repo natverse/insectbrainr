@@ -1,15 +1,31 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![natverse](https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6)](https://natverse.github.io) [![Travis build status](https://travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr) [![Codecov test coverage](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/gh/natverse/insectbrainr?branch=master) [![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/) <img src="man/figures/logo.svg" align="right" height="139" />
+[![natverse](https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6)](https://natverse.github.io)
+[![Travis build
+status](https://travis-ci.org/natverse/insectbrainr.svg?branch=master)](https://travis-ci.org/natverse/insectbrainr)
+[![Codecov test
+coverage](https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg)](https://codecov.io/gh/natverse/insectbrainr?branch=master)
+[![Docs](https://img.shields.io/badge/docs-100%25-brightgreen.svg)](http://jefferislab.github.io/insectbrainr/reference/)
+<img src="man/figures/logo.svg" align="right" height="139" />
 
 The Insect Brain Database
 =========================
 
-The goal of *insectbrainr* is to provide R client utilities for interacting with the [Insect Brain Database](https://insectbraindb.org/app/). Using this R package in concert with the [natverse](https://github.com/natverse/natverse) ecosystem of neuroanatomy tools is highly recommended. The [InsectBrainDB.org](https://insectbraindb.org/app/) is primarily curated by [Stanley Heinze](https://www.biology.lu.se/stanley-heinze). Learn more about the project [here](https://insectbraindb.org/app/about).
+The goal of *insectbrainr* is to provide R client utilities for
+interacting with the [Insect Brain
+Database](https://insectbraindb.org/app/). Using this R package in
+concert with the [natverse](https://github.com/natverse/natverse)
+ecosystem of neuroanatomy tools is highly recommended. The
+[InsectBrainDB.org](https://insectbraindb.org/app/) is primarily curated
+by [Stanley Heinze](https://www.biology.lu.se/stanley-heinze). Learn
+more about the project [here](https://insectbraindb.org/app/about).
 
 Installation
 ------------
 
-Firstly, you will need R, R Studio and X Quartz as well as nat and its dependencies. For detailed installation instructions for all this, see [here](https://jefferis.github.io/nat/articles/Installation.html). It should not take too long at all. Then:
+Firstly, you will need R, R Studio and X Quartz as well as nat and its
+dependencies. For detailed installation instructions for all this, see
+[here](https://jefferis.github.io/nat/articles/Installation.html). It
+should not take too long at all. Then:
 
 ``` r
 # install
@@ -25,7 +41,9 @@ Done!
 Key Functions
 -------------
 
-Now we can have a look at what is available, here are some of the key functions. Their help details examples of their use. You can summon the help in RStudio using `?` followed by the function name.
+Now we can have a look at what is available, here are some of the key
+functions. Their help details examples of their use. You can summon the
+help in RStudio using `?` followed by the function name.
 
 ``` r
 # And how can I read neurons from the insectbrainDB?
@@ -38,7 +56,11 @@ Now we can have a look at what is available, here are some of the key functions.
 Example
 -------
 
-Let's also have a look at an example pulling neurons and brain meshes from [insectbraindb.org](https://insectbraindb.org/app/). Here we shall take a look at neurons from the brain of the Monarch butterlfy that have been registered to a template brain. Excitingly, we can also visualise this template brain.
+Let’s also have a look at an example pulling neurons and brain meshes
+from [insectbraindb.org](https://insectbraindb.org/app/). Here we shall
+take a look at neurons from the brain of the Monarch butterfly that have
+been registered to a template brain. Excitingly, we can also visualise
+this template brain.
 
 ``` r
 ## What neurons does the insectbraindb.org host?
@@ -96,17 +118,29 @@ plot3d(butterfly.neurons, lwd = 2, soma = 5)
 Acknowledging the data and tools
 --------------------------------
 
-The [insectbraindb.org](https://insectbraindb.org/) has a [terms of use](https://insectbraindb.org/app/terms), which provides guidance on how best to credit data from these repositories. Most neurons have an associated publication that you can find on the repository websites.
+The [insectbraindb.org](https://insectbraindb.org/) has a [terms of
+use](https://insectbraindb.org/app/terms), which provides guidance on
+how best to credit data from these repositories. Most neurons have an
+associated publication that you can find on the repository websites.
 
-This package was created by Alexander Shakeel Bates, while in the group of [Dr. Gregory Jefferis](https://en.wikipedia.org/wiki/Gregory_Jefferis). You can cite this package as:
+This package was created by Alexander Shakeel Bates, while in the group
+of [Dr. Gregory
+Jefferis](https://en.wikipedia.org/wiki/Gregory_Jefferis). You can cite
+this package as:
 
 ``` r
 citation(package = "insectbrainr")
 ```
 
-**Bates AS** (2019). *insectbrainr: R client utilities for interacting with the InsectBrainDB.org.* **R package** version 0.1.0. <https://github.com/natverse/insectbrainr>
+**Bates AS** (2019). *insectbrainr: R client utilities for interacting
+with the InsectBrainDB.org.* **R package** version 0.1.0.
+<a href="https://github.com/natverse/insectbrainr" class="uri">https://github.com/natverse/insectbrainr</a>
 
 Acknowledgements
 ----------------
 
-The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was buily by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
+The [insectbraindb.org](https://insectbraindb.org/app/) is primarily
+curated by [Dr. Stanley
+Heinze](https://www.biology.lu.se/stanley-heinze), and was built by
+[Kevin Tedore](https://tedore.com/), and has several significant
+[supporters](https://insectbraindb.org/app/), including the ERC.

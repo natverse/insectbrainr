@@ -46,7 +46,7 @@ print(unique(species_info$common_name))
 
 ## Read brains
 
-Armed with this information, we can now read the the brains as `nat` package `hxsurf` objects. You can find a detailed explanation of this data format, and its basic manipulation with `nat` tools, [here](https://jefferis.github.io/nat/). Importantly, we can sub-divide a `hxsurf` brain by its contituent regions, in this case, neuropils, for visualisation and analysis.
+Armed with this information, we can now read the the brains as `nat` package `hxsurf` objects. You can find a detailed explanation of this data format, and its basic manipulation with `nat` tools, [here](https://jefferis.github.io/nat/). Importantly, we can sub-divide a `hxsurf` brain by its constituent regions, in this case, neuropils, for visualisation and analysis.
 
 ```{r read.brains, eval = FALSE}
 # Let's try to read every brain the repository has

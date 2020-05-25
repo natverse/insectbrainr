@@ -4,7 +4,7 @@
 #' given a single latin names for the species desired. Metadata for available neurons can be seen, and IDs chosen,
 #' by calling \code{\link{insectbraindb_species_info}}. 3D triangular brain meshes are returned as a \code{nat} package \code{\link[nat]{hxsurf}}
 #' object, which mimics the Amira surface format. These can be be plotted in 3D using \code{rgl} and analysed with tools from the \code{nat} ecosystem.
-#' This incldue subseting by neuropil, i.e.. if you only want to visualise or analyse the antennal lobe.
+#' This includes subsetting by neuropil, i.e.. if you only want to visualise or analyse the antennal lobe.
 #' @param species the full scientific name for a species. The available options can be seen \href{https://insectbraindb.org/app/species}{here}
 #' @param brain.sex the sex of the species' brain. The available options can be seen \href{https://insectbraindb.org/app/species}{here}
 #' @param progress if \code{TRUE} or a numeric value, a progress bar is shown to track the state of your download

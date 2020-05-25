@@ -51,7 +51,7 @@ Now we can have a look at what is available, here are some of the key functions.
 
 ## Example
 
-Let's also have a look at an example pulling neurons and brain meshes from [insectbraindb.org](https://insectbraindb.org/app/). Here we shall take a look at neurons from the brain of the Monarch butterlfy that have been registered to a template brain. Excitingly, we can also visualise this template brain.  
+Let's also have a look at an example pulling neurons and brain meshes from [insectbraindb.org](https://insectbraindb.org/app/). Here we shall take a look at neurons from the brain of the Monarch butterfly that have been registered to a template brain. Excitingly, we can also visualise this template brain.  
 
 ```{r insectbraindb.example, eval = FALSE}
 ## What neurons does the insectbraindb.org host?
@@ -120,5 +120,5 @@ citation(package = "insectbrainr")
 
 ## Acknowledgements
 
-The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was buily by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
+The [insectbraindb.org](https://insectbraindb.org/app/) is primarily curated by [Dr. Stanley Heinze](https://www.biology.lu.se/stanley-heinze), and was built by [Kevin Tedore](https://tedore.com/), and has several significant [supporters](https://insectbraindb.org/app/), including the ERC.
 
