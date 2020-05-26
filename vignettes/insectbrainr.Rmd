@@ -189,7 +189,7 @@ ggplot2::ggplot(df2, aes(x=volume, y=al.volume, color = species)) +
 
 Also note, that some of these brains, such as that for Agrotis segetum, are not actually complete seemingly.
 
-It is hard to interpret this sort of result. Perhaps we are better served by trying to see an olfactory - vision trade-off, and sompare the AL size with the size of the optic lobes? The optic lobes are a bit more complicated, the consist of:
+It is hard to interpret this sort of result. Perhaps we are better served by trying to see an olfactory - vision trade-off, and compare the AL size with the size of the optic lobes? The optic lobes are a bit more complicated, the consist of:
 
   - Accessory medulla
   - Dorsal rim medulla

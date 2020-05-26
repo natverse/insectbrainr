@@ -21,7 +21,7 @@
 #'   database are read. As of May 2018, this is only 100 readable neurons. A
 #'   helpful information page on each neuron can be seen by visiting
 #'   "https://insectbraindb.org/app/neuron/id", where id is a number, e.g. for
-#'   Bogon moth neuron \code{219}, this is yuor
+#'   Bogon moth neuron \code{219}, this is your
 #'   \href{https://insectbraindb.org/app/neuron/219}{ticket}.
 #' @param progress if \code{TRUE} or a numeric value, a progress bar is shown to
 #'   track the state of your download
