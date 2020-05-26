@@ -104,7 +104,7 @@ insectbraindb_read_brain <- function(species = insectbraindb_species_info()$scie
     tryCatch(readobj::read.obj(x, convert.rgl = T), error = function(e) NULL)[[1]])
   success = success[!sapply(objs, is.null)]
   objs = objs[!sapply(objs, is.null)]
-  objs = lapply(objs, nat::as.hxsurf)
+  objs = lapply(objs, as.hxsurf)
   brain = list()
   brain$Vertices = data.frame()
   brain$Regions = list()

@@ -1,6 +1,7 @@
 #' See \url{http://natverse.org/insectbrainr/} for structured package
 #'   documentation.
 #' @keywords internal
+#' @import nat
 "_PACKAGE"
 
 # The following block is used by usethis to automatically manage

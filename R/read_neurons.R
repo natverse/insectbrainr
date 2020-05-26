@@ -145,7 +145,7 @@ insectbraindb_read_neurons <- function(ids = NULL, progress = TRUE){
     temp.files = c(temp.files, localfile)
     if(progress) insectbraindb_progress(url/length(urls)*100, max = 100, message = "downloading SWC files")
   }
-  neurons = nat::read.neurons(temp.files)
+  neurons = read.neurons(temp.files)
   names(neurons) = df[success,"id"]
   neurons[,] = df[success,]
   neurons
