@@ -16,10 +16,9 @@ Suggests:
     spelling,
     knitr,
     rmarkdown,
-    covr,
-    purrr
+    covr
 Depends: R (>= 2.10), nat
-Imports: httr, jsonlite, curl, utils, readobj
+Imports: httr, jsonlite, curl, utils, readobj, purrr
 Encoding: UTF-8
 Language: en-GB
 RoxygenNote: 7.1.0
