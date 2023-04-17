@@ -95,7 +95,7 @@ insectbraindb_read_neurons <- function(ids = NULL, progress = TRUE){
                                     simplifyVector=FALSE,
                                     include_headers = FALSE,
                                     insectbraindb_url = "https://insectbraindb.org")
-    if(is.na(neuron_info)){
+    if(!is.list(neuron_info)){
       warning("warning: information on ", id, " could not be found")
       next
     }

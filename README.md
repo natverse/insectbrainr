@@ -29,8 +29,8 @@ should not take too long at all. Then:
 
 ``` r
 # install
-if (!require("devtools")) install.packages("devtools")
-devtools::install_github("natverse/insectbrainr")
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("natverse/insectbrainr")
 
 # use 
 library(insectbrainr)
